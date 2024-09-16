@@ -66,14 +66,15 @@ nav ul li a:hover {
 
 .content_hero {
     position: relative;
-    top: 190px;
+    top: 140px;
     max-width: 1000px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.753);
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.192);
     color: var(--text-color);
     text-align: center;
+    margin: auto;
 }
 
 .hero h2 {
@@ -103,6 +104,7 @@ nav ul li a:hover {
 /* Artículos - Grid */
 #articles {
     padding: 40px 20px;
+    margin-top: 100px;
 }
 
 .article-grid {
@@ -180,19 +182,32 @@ footer a {
     .hero p {
         font-size: 16px;
     }
+    .content_hero{
+        top: 20px;
+    }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        gap: 10px;
     }
 
     nav ul li {
         margin: 10px 0;
     }
+    nav ul li a{
+        font-size: 1rem;
+    }
 
+    #articles {
+        padding: 40px 20px;
+        margin-top: 20px;
+    }
+    
     .article-grid {
         grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
     }
+
 }
 
 @media (max-width: 480px) {
@@ -207,4 +222,5 @@ footer a {
     .hero p {
         font-size: 14px;
     }
+    
 }
