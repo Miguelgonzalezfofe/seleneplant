@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 .content_hero {
     position: relative;
-    top: 140px;
+    top: 120px;
     max-width: 1000px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.753);
@@ -198,7 +198,7 @@ footer a {
         font-size: 16px;
     }
     .content_hero{
-        top: 20px;
+        top: 0;
     }
 
     nav ul {
@@ -215,8 +215,8 @@ footer a {
     }
 
     #articles {
-        padding: 40px 20px;
-        margin-top: 20px;
+        padding: 20px 0;
+        margin-top: 30px;
     }
     
     .article-grid {
