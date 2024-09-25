@@ -7,19 +7,20 @@
 
     .content_hero {
         position: relative;
-        top: 120px;
+        top: 170px;
         max-width: 1000px;
-        padding: 20px;
-        background: rgba(255, 255, 255, 0.753);
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.637);
         border-radius: 15px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.192);
         color: var(--text-color);
         text-align: center;
+        backdrop-filter: blur(3px);
         margin: auto;
 
         h2 {
             color: var(--verde);
-            font-size: 2.5rem;
+            font-size: 2.3rem;
         }
         p {
             font-size: 18px;
@@ -32,7 +33,7 @@
             border-radius: 10px;
             cursor: pointer;
             font-size: 16px;
-            margin-top: 20px;
+            margin-top: 14px;
 
             &:hover {
                 background-color: #388E3C;

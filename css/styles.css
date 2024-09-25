@@ -23,7 +23,7 @@ body {
 header {
   background-color: var(--verde);
   height: 70px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -47,7 +47,7 @@ header nav ul {
 header nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 header nav ul li a:hover {
   text-decoration: underline;
@@ -62,19 +62,20 @@ header nav ul li a:hover {
 }
 .hero .content_hero {
   position: relative;
-  top: 120px;
+  top: 170px;
   max-width: 1000px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.753);
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.637);
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.192);
   color: var(--text-color);
   text-align: center;
+  backdrop-filter: blur(3px);
   margin: auto;
 }
 .hero .content_hero h2 {
   color: var(--verde);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 .hero .content_hero p {
   font-size: 18px;
@@ -87,7 +88,7 @@ header nav ul li a:hover {
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 14px;
 }
 .hero .content_hero button:hover {
   background-color: #388E3C;
@@ -96,14 +97,12 @@ header nav ul li a:hover {
 /* Artículos - Grid */
 #articles {
   margin-top: 100px;
-  height: 850px;
 }
 #articles .content_article {
   background-image: url("img/img_plantas/plantas_portadas7.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
-  overflow-x: scroll;
 }
 #articles .content_article .article-grid {
   display: grid;
@@ -196,17 +195,18 @@ footer a {
     margin-top: 30px;
   }
   #articles .content_article .article-grid {
-    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
+    /* Una columna en pantallas pequeñas */
   }
 }
 @media (max-width: 480px) {
   .hero {
-    padding: 30px;
+    padding: 20px;
   }
-  .hero h2 {
-    font-size: 1.5rem;
+  .hero .content_hero h2 {
+    font-size: 1.8rem;
   }
-  .hero p {
+  .hero .content_hero p {
     font-size: 14px;
   }
 }

@@ -1,14 +1,12 @@
 /* Artículos - Grid */
 #articles {
     margin-top: 100px;
-    height: 850px;
 
     .content_article {
         background-image: url("img/img_plantas/plantas_portadas7.jpg");
         background-position: center;
         background-size: cover;
         height: 100%;
-        overflow-x: scroll;
 
         .article-grid {
             display: grid;
