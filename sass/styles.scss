@@ -1,0 +1,45 @@
+/* Colores base */
+:root {
+    --beige: #f5f5dc;
+    --verde: #4CAF50;
+    --text-color: #333;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--beige);
+    color: var(--text-color);
+}
+@import '../sass/header';
+@import '../sass/hero';
+@import '../sass/articulos';
+
+/* Acerca de */
+#about {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+#about h2 {
+    color: var(--verde);
+}
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: var(--verde);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+@import '../sass/queris'

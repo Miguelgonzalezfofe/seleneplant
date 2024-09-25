@@ -1,0 +1,23 @@
+{
+  "name": "seleneplant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelgonzalezfofe/seleneplant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguelgonzalezfofe/seleneplant/issues"
+  },
+  "homepage": "https://github.com/Miguelgonzalezfofe/seleneplant#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "sass": "^1.79.3"
+  }
+}

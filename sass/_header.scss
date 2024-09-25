@@ -1,0 +1,39 @@
+/* Encabezado */
+header {
+    background-color: var(--verde);
+    height: 70px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: auto;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        h1 {
+            color: white;
+            font-size: 2.8rem;
+        }
+        
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+            li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            
+            }
+        }
+    }
+}
