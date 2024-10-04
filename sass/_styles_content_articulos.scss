@@ -21,12 +21,22 @@
         gap: 10px;
         align-items: baseline;
         justify-content: center;
+        margin-right: 40px;
 
         article{
             width: 100%;
-            max-width: 400px;
+            max-width: 600px;
             min-width: 200px;
 
+            .info_article{
+                display: flex;
+                flex-direction: row;
+                
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
             h3{
                 color: var(--verde);
                 font-size: 1.4rem;
